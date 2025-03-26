@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    font-weight: bold;
+}
+thead th {
+    background-color: #f9f9f9;
+    color: #555;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+tbody td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+tbody tr:nth-child(1),
+tbody tr:nth-child(2),
+tbody tr:nth-child(3){
+    background-color: #009cfd;
+}
+tbody tr:nth-child(4),
+tbody tr:nth-child(5){
+    background-color: lightskyblue;
+}
+tbody tr:nth-child(6){
+    background-color: lightgreen;
+}
+tbody tr:nth-child(10) {
+    background-color: lightcoral;
+}
+td#Argentina, td#Equador, td#Brasil {
+    color: #0000ff;
+}
+td#Uruguai, td#Paraguai {
+    color: #009cfd
+}
+td#Colômbia {
+    color: #016e2b
+}
+td#Chile {
+    color: #ff3300
+}
